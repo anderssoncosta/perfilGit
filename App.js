@@ -1,7 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { useState } from 'react';
-import { Image, Keyboard, SafeAreaView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
-import Perfil from './src/Perfil';
+import { SafeAreaView, StyleSheet } from 'react-native';
 import Routes from './src/routes';
 import { NavigationContainer } from '@react-navigation/native';
 

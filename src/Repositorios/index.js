@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import {  Keyboard, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import api from '../services/api';
@@ -69,13 +68,6 @@ export default function Perfil() {
                 {reposUser.map(listar => <Text style={styles.lista} key={listar.id} > {`Nome: ${listar.name}`}</Text>)}
 
               </ScrollView>
-
-              {/* <FlatList
-                showsHorizontalScrollIndicator={false}
-                data={gitUser}
-                keyExtractor={ item => item.id }
-                renderItem={({item}) => <Text data={item.name}/> }
-              /> */}
 
             </View>
         </View>
